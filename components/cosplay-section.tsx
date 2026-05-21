@@ -63,14 +63,11 @@ export function CosplaySection() {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 glow-box gap-2"
             >
-              <a href="/edital-cosplay.pdf" download>
+              <a href="/api/edital" download="edital-cosplay-dia-da-toalha.pdf">
                 <Download className="w-5 h-5" />
                 Baixar Edital (PDF)
               </a>
             </Button>
-            <p className="text-xs text-muted-foreground mt-4">
-              * O arquivo será disponibilizado em breve
-            </p>
           </div>
         </div>
       </div>
