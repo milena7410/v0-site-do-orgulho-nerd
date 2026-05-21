@@ -225,7 +225,7 @@ export function generateEditalPDF() {
   y += 3
   doc.setFontSize(11)
   doc.setFont("helvetica", "bold")
-  doc.text("🏆 TOP 3: Troféu Personalizado + Brinde", margin + 10, y)
+  doc.text("TOP 3: Troféu Personalizado + Brinde", margin + 10, y)
   y += 10
   doc.setFont("helvetica", "normal")
   doc.setFontSize(10)
