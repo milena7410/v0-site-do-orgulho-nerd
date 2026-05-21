@@ -1,5 +1,8 @@
+"use client"
+
 import { Download, FileText, Award, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { generateEditalPDF } from "@/lib/generate-edital-pdf"
 
 export function CosplaySection() {
   return (
@@ -59,14 +62,12 @@ export function CosplaySection() {
               Baixe o edital completo com todas as regras, critérios de avaliação e informações sobre premiação.
             </p>
             <Button
-              asChild
               size="lg"
+              onClick={generateEditalPDF}
               className="bg-primary text-primary-foreground hover:bg-primary/90 glow-box gap-2"
             >
-              <a href="/api/edital" download="edital-cosplay-dia-da-toalha.pdf">
-                <Download className="w-5 h-5" />
-                Baixar Edital (PDF)
-              </a>
+              <Download className="w-5 h-5" />
+              Baixar Edital (PDF)
             </Button>
           </div>
         </div>
