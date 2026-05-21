@@ -12,6 +12,9 @@ export function Footer() {
           <p>Comissão de Cultura Geek e Nerd • Comissão de Arte e Cultura</p>
           <p className="mt-1">IFMS - Campus Aquidauana</p>
         </div>
+        <p className="text-xs text-muted-foreground/60 mt-4">
+          Desenvolvido por Milena Alegre
+        </p>
       </div>
     </footer>
   )
