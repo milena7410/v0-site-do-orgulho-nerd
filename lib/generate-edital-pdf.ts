@@ -229,7 +229,6 @@ export function generateEditalPDF() {
   y += 10
   doc.setFont("helvetica", "normal")
   doc.setFontSize(10)
-  addText("Todos os participantes receberao certificado de participacao.", 10)
   y += 5
 
   // ============ 9. DISPOSICOES FINAIS ============
