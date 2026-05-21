@@ -221,15 +221,11 @@ export function generateEditalPDF() {
 
   // ============ 8. PREMIACAO ============
   addSectionTitle("8", "PREMIACAO")
-  addText("Serao premiados os 3 (tres) melhores cosplays:", 10)
+  addText("Serao premiados os 3 (tres) melhores cosplays, sem distincao de colocacao:", 10)
   y += 3
   doc.setFontSize(11)
   doc.setFont("helvetica", "bold")
-  doc.text("1o Lugar: Trofeu + Brinde", margin + 10, y)
-  y += 6
-  doc.text("2o Lugar: Trofeu + Brinde", margin + 10, y)
-  y += 6
-  doc.text("3o Lugar: Trofeu + Brinde", margin + 10, y)
+  doc.text("TOP 3: Trofeu Personalizado + Brinde", margin + 10, y)
   y += 10
   doc.setFont("helvetica", "normal")
   doc.setFontSize(10)
