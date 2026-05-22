@@ -31,7 +31,7 @@ export function HeroSection() {
 
         {/* Data em destaque */}
         <div className="inline-block bg-primary/20 border border-primary/50 rounded-lg px-6 py-4 mb-8">
-          <p className="text-lg text-muted-foreground">Quinta-feira</p>
+          <p className="text-lg text-muted-foreground">Sexta-feira</p>
           <p className="text-4xl md:text-5xl font-bold text-primary glow-text">
             29 de Maio
           </p>

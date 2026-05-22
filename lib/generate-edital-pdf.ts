@@ -109,7 +109,7 @@ export function generateEditalPDF() {
 
   // ============ 2. DATA, LOCAL E HORÁRIO ============
   addSectionTitle("2", "DATA, LOCAL E HORÁRIO")
-  addText("Data: 29 de maio de 2026 (quinta-feira)", 10, true)
+  addText("Data: 29 de maio de 2026 (sexta-feira)", 10, true)
   addText("Local: IFMS Campus Aquidauana", 10)
   addText("Horários do evento:", 10, true)
   addText("   - Intervalo Cultural Manhã: 09:15 às 09:45", 10)
