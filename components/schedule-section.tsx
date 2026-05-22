@@ -20,7 +20,7 @@ const scheduleItems = [
     icon: Moon,
     time: "18:30 às 21:30",
     title: "Evento na Biblioteca",
-    description: "Cinema, jogos de tabuleiro, espaço para fotos e concurso de cosplay",
+    description: "Cinema, jogos de tabuleiro, espaço para fotos e concurso de cosplay e cospobre",
   },
 ]
 

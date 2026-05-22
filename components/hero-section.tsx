@@ -20,7 +20,7 @@ export function HeroSection() {
           <div className="glow-box rounded-lg overflow-hidden">
             <Image
               src="/cartaz-evento.png"
-              alt="Cartaz do Dia da Toalha - Evento com data 27/05, intervalo cultural manhã e tarde, cinema, jogos de tabuleiro e concurso de cosplay"
+              alt="Cartaz do Dia da Toalha - Evento com data 29/05, intervalo cultural manhã e tarde, cinema, jogos de tabuleiro e concurso de cosplay e cospobre"
               width={500}
               height={500}
               className="w-full h-auto"
@@ -31,15 +31,15 @@ export function HeroSection() {
 
         {/* Data em destaque */}
         <div className="inline-block bg-primary/20 border border-primary/50 rounded-lg px-6 py-4 mb-8">
-          <p className="text-lg text-muted-foreground">Quarta-feira</p>
+          <p className="text-lg text-muted-foreground">Sexta-feira</p>
           <p className="text-4xl md:text-5xl font-bold text-primary glow-text">
-            27 de Maio
+            29 de Maio
           </p>
         </div>
 
         {/* CTA */}
         <p className="text-lg text-foreground/80 max-w-xl mx-auto">
-          Venha fantasiado do seu personagem favorito e participe do nosso concurso de cosplay!
+          Venha fantasiado do seu personagem favorito e participe do nosso concurso de cosplay e cospobre!
         </p>
       </div>
     </section>
