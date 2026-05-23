@@ -3,11 +3,10 @@
 import { Download, FileText, Award, Users, ClipboardList } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { generateEditalPDF } from "@/lib/generate-edital-pdf"
-import Link from "next/link"
 
 export function CosplaySection() {
   return (
-    <section className="py-16 px-4 md:px-8" id="cosplay">
+    <section className="pt-8 pb-16 px-4 md:px-8" id="cosplay">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary glow-text">
@@ -109,25 +108,15 @@ export function CosplaySection() {
             </Button>
           </div>
 
-          {/* Botão de inscrição */}
-          <div className="bg-card border-2 border-accent rounded-xl p-8 text-center">
+          {/* Inscrição no local */}
+          <div className="bg-card border-2 border-accent rounded-xl p-8 text-center flex flex-col items-center justify-center">
             <ClipboardList className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-xl font-bold text-foreground mb-2">
               Inscrição para o Concurso
             </h3>
-            <p className="text-muted-foreground mb-6 text-sm">
-              Preencha o formulário para participar do concurso de cosplay ou cospobre.
+            <p className="text-muted-foreground text-sm">
+              A inscrição será realizada no dia do evento, presencialmente no local.
             </p>
-            <Button
-              asChild
-              size="lg"
-              className="bg-accent text-accent-foreground hover:bg-accent/90 gap-2"
-            >
-              <Link href="/inscricao">
-                <ClipboardList className="w-5 h-5" />
-                Fazer Inscrição
-              </Link>
-            </Button>
           </div>
         </div>
       </div>

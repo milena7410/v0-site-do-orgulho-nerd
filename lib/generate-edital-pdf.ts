@@ -265,13 +265,13 @@ export function generateEditalPDF() {
 
   // ============ 9. PREMIAÇÃO ============
   addSectionTitle("9", "PREMIAÇÃO")
-  addText("Serão premiados os 3 (três) melhores de CADA categoria, sem distinção de colocação:", 10)
+  addText("Os premiados de cada categoria receberão:", 10)
   y += 3
   doc.setFontSize(11)
   doc.setFont("helvetica", "bold")
-  doc.text("TOP 3 COSPLAY: Troféu Personalizado + Brinde", margin + 10, y)
+  doc.text("COSPLAY: 3 Troféus + Brinde", margin + 10, y)
   y += 8
-  doc.text("TOP 3 COSPOBRE: Troféu Personalizado + Brinde", margin + 10, y)
+  doc.text("COSPOBRE: 1 Troféu + Brinde", margin + 10, y)
   y += 10
   doc.setFont("helvetica", "normal")
   doc.setFontSize(10)
