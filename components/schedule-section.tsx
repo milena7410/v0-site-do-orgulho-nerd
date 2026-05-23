@@ -26,7 +26,7 @@ const scheduleItems = [
 
 export function ScheduleSection() {
   return (
-    <section className="py-16 px-4 md:px-8 bg-secondary/30">
+    <section className="pt-16 pb-8 px-4 md:px-8 bg-secondary/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary glow-text">
           Programação

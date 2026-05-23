@@ -6,7 +6,7 @@ import { generateEditalPDF } from "@/lib/generate-edital-pdf"
 
 export function CosplaySection() {
   return (
-    <section className="py-16 px-4 md:px-8" id="cosplay">
+    <section className="pt-8 pb-16 px-4 md:px-8" id="cosplay">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary glow-text">
