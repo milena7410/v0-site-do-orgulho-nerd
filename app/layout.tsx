@@ -8,7 +8,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Dia da Toalha - IFMS Aquidauana',
-  description: 'Dia do Orgulho Nerd - 27 de Maio de 2026 - Concurso de Cosplay, Cinema, Jogos e muito mais!',
+  description: 'Dia do Orgulho Nerd - 27 de Maio de 2026 (manhã e tarde) e 29 de Maio de 2026 (cosplay) - IFMS Aquidauana!',
   generator: 'v0.app',
   icons: {
     icon: [

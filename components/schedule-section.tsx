@@ -15,27 +15,20 @@ const scheduleItems = [
     title: "Intervalo Cultural",
     description: "Apresentação musical e decorações especiais para fotos",
   },
-  {
-    period: "Noite",
-    icon: Moon,
-    time: "18:30 às 21:30",
-    title: "Evento na Biblioteca",
-    description: "Cinema, jogos de tabuleiro, espaço para fotos e concurso de cosplay e cospobre",
-  },
 ]
 
 export function ScheduleSection() {
   return (
-    <section className="pt-16 pb-8 px-4 md:px-8 bg-secondary/30">
+    <section className="pt-5 pb-5 px-4 md:px-8 bg-secondary/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary glow-text">
-          Programação
+          Programação (dia 27)
         </h2>
-        <p className="text-center text-muted-foreground mb-12">
-          Confira os horários do evento
+        <p className="text-center text-muted-foreground mb-8">
+          Confira os horários da manhã e da tarde
         </p>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {scheduleItems.map((item, index) => (
             <div
               key={index}

@@ -109,13 +109,12 @@ export function generateEditalPDF() {
 
   // ============ 2. DATA, LOCAL E HORÁRIO ============
   addSectionTitle("2", "DATA, LOCAL E HORÁRIO")
-  addText("Data: 29 de maio de 2026 (sexta-feira)", 10, true)
+  addText("Data: 27 de maio de 2026 (manhã e tarde) e 29 de maio de 2026 (cosplay e cospobre)", 10, true)
   addText("Local: IFMS Campus Aquidauana", 10)
   addText("Horários do evento:", 10, true)
-  addText("   - Intervalo Cultural Manhã: 09:15 às 09:45", 10)
-  addText("   - Intervalo Cultural Tarde: 15:15 às 15:45", 10)
-  addText("   - Evento Noturno (Biblioteca): 18:30 às 21:30", 10)
-  addJustifiedText("O desfile e avaliação do cosplay e cospobre ocorrerá durante os intervalos culturais.", 10)
+  addText("   - Intervalo Cultural (dia 27 - manhã): 09:15 às 09:45", 10)
+  addText("   - Intervalo Cultural (dia 27 - tarde): 15:15 às 15:45", 10)
+  addText("   - Concurso de Cosplay e Cospobre (dia 29): Biblioteca do campus", 10)
   y += 5
 
   // ============ 3. CATEGORIAS ============

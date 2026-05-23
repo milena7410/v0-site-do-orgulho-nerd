@@ -2,7 +2,7 @@ import { MapPin, Info, AlertCircle } from "lucide-react"
 
 export function InfoSection() {
   return (
-    <section className="py-16 px-4 md:px-8 bg-secondary/30">
+    <section className="py-8 px-4 md:px-8 bg-secondary/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary glow-text">
           Informações Importantes
@@ -21,8 +21,8 @@ export function InfoSection() {
               <strong>IFMS - Campus Aquidauana</strong>
             </p>
             <p className="text-muted-foreground text-sm">
-              Intervalos: Pátio / Área comum<br />
-              Noite: Biblioteca do campus
+              Manhã e Tarde (dia 27): Pátio / Área comum<br />
+              Cosplay (dia 29): Biblioteca do campus
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export function InfoSection() {
                   <li>• <strong className="text-foreground">Evento interno:</strong> Apenas para estudantes do IFMS</li>
                   <li>• <strong className="text-foreground">Não é necessária inscrição prévia</strong></li>
                   <li>• <strong className="text-foreground">Aulas normais:</strong> As aulas ocorrerão normalmente durante o dia</li>
-                  <li>• <strong className="text-foreground">Evento noturno:</strong> Para estudantes do período diurno. Estudantes do noturno só participam com autorização do docente</li>
+                  <li>• <strong className="text-foreground">Cosplay (dia 29):</strong> Venha fantasiado e participe do concurso presencialmente</li>
                 </ul>
               </div>
             </div>
