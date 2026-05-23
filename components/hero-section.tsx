@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export function HeroSection() {
   return (
     <section className="relative py-12 px-4 md:px-8 flex flex-col items-center justify-center min-h-screen">
@@ -14,20 +12,6 @@ export function HeroSection() {
         <p className="text-2xl md:text-3xl font-semibold text-foreground mb-8">
           IFMS - Aquidauana
         </p>
-
-        {/* Cartaz do evento */}
-        <div className="relative w-full max-w-md mx-auto mb-8 float-animation">
-          <div className="glow-box rounded-lg overflow-hidden">
-            <Image
-              src="/cartaz-evento.png"
-              alt="Cartaz do Dia da Toalha - Evento com data 29/05, intervalo cultural manhã e tarde, cinema, jogos de tabuleiro e concurso de cosplay e cospobre"
-              width={500}
-              height={500}
-              className="w-full h-auto"
-              priority
-            />
-          </div>
-        </div>
 
         {/* Data em destaque */}
         <div className="inline-block bg-primary/20 border border-primary/50 rounded-lg px-6 py-4 mb-8">
