@@ -269,9 +269,9 @@ export function generateEditalPDF() {
   y += 3
   doc.setFontSize(11)
   doc.setFont("helvetica", "bold")
-  doc.text("COSPLAY: 3 Trofeus + Brinde", margin + 10, y)
+  doc.text("COSPLAY: 3 Troféus + Brinde", margin + 10, y)
   y += 8
-  doc.text("COSPOBRE: 1 Trofeu + Brinde", margin + 10, y)
+  doc.text("COSPOBRE: 1 Troféu + Brinde", margin + 10, y)
   y += 10
   doc.setFont("helvetica", "normal")
   doc.setFontSize(10)
